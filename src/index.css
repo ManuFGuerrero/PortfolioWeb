@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@keyframes tilt {
+  0%, 100% {
+    transform: rotate(0deg) translateX(0);
+  }
+  50% {
+    transform: rotate(3deg) translateX(10px);
+  }
+}
+
+.before\:animate-tilt::before {
+  animation: tilt 3s infinite linear;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+
