@@ -66,7 +66,7 @@ const Home = () => {
           <div className="text-center md:text-left max-w-md px-12 py-18 border border-red-600  bg-neutral-800/80 rounded-2xl p-6 shadow-xl hover:scale-105 hover:shadow-red-800 transition-transform duration-300">
             <h2 className="text-6xl font-bold text-[#FFFFF] mb-2">Manuel Florian Guerrero</h2>
             <p className="text-2xl font-medium text-gray-300 mb-4">Backend/Full Stack Developer</p>
-            <p className="text-gray-400 italic">“Acerquense a ver la mano ganadora. Apuesto al código limpio, proyectos escalables y soluciones únicas.”</p>
+            <p className="text-gray-400 italic">“Acérquense a ver la mano ganadora. Apuesto al código limpio, proyectos escalables y soluciones únicas.”</p>
           </div>
 
         </div>
