@@ -17,7 +17,7 @@ const Home = () => {
 
 
   return (
-    <div className="relative w-full min-h-[110vh] overflow-hidden ">
+    <div className="relative w-full min-h-[150vh] overflow-hidden ">
 
       {/* Fondo animado */}
       <Balatro isRotate={false} mouseInteraction={true} pixelFilter={700} />
