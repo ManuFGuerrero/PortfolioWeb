@@ -7,14 +7,12 @@ const Home = () => {
 
   const handleDownloadCV = () => {
 
-    console.log("arranco");
     const link = document.createElement("a");
-    link.href = "../../public/CviManuelGuerrero.pdf";
+    link.href = "/CviManuelGuerrero.pdf";
     link.download = "CV-ManuelGuerrero.pdf";
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-    console.log("termino");
   };
 
 
